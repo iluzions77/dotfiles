@@ -30,6 +30,9 @@ if [ -f "$SETUP_SCRIPT" ]; then
   echo "Finished configuring projects"
 fi
 
+ensure_dotfile_link .git-completion.sh
+ensure_dotfile_link .git-prompt.sh
+
 #---------------------------------------------------------------------
 # Personal setup
 # If you have another personal repository that has additional
