@@ -23,5 +23,7 @@ PS1='$(printf "%$((`tput cols`-1))s\r")$(stat -f "\e[1;32m%Sp \e[0;33m%Su:%Sg\e[
 #alias hextobin="cat \"$1\" | echo -n -e $(tr -d '[:space:]' | sed 's/../\\x&/g')"
 alias docker-stats='docker stats $(docker ps --format={{.Names}})'
 
+set term=xterm-256color
+
 # MacPorts Installer addition on 2019-01-22_at_14:25:24: adding an appropriate PATH variable for use with MacPorts.
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"

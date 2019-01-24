@@ -30,8 +30,10 @@ if [ -f "$SETUP_SCRIPT" ]; then
   echo "Finished configuring projects"
 fi
 
+ensure_dotfile_link .gitconfig
 ensure_dotfile_link .git-completion.sh
 ensure_dotfile_link .git-prompt.sh
+ensure_dotfile_link .vimrc
 
 #---------------------------------------------------------------------
 # Personal setup

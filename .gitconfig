@@ -1,0 +1,13 @@
+[user]
+	name = Jon Schnur
+	email = jonathan.schnur@changepoint.com
+[github]
+	user = iluzions77
+[push]
+	default = simple
+[credential]
+	helper = osxkeychain
+[core]
+	editor = vim
+[color]
+	ui = true
